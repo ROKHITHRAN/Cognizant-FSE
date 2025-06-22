@@ -1,0 +1,12 @@
+Linear Search: O(n) : Scans each item one by one.
+
+  --Best for small or unsorted lists.
+
+Binary Search: O(log n) : Requires a sorted array.
+
+  --Much faster for large datasets.
+
+** Recommendation: **
+
+For real-time, large-scale e-commerce search, use binary search on sorted data for faster performance.
+
