@@ -1,0 +1,11 @@
+Time Complexity:
+Naive Recursive: O(n)
+  --Each call depends on the previous call.
+
+Memoized Recursive: O(n)
+  --Stores intermediate results to prevent recomputation.
+
+Optimization:
+Use memoization to store previously calculated results.
+
+For very large inputs, recursion may lead to a stack overflow — prefer iterative methods or dynamic programming in such cases.
